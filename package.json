@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "name": "com.dooble.audiotoggle",
+    "cordova_name": "AudioToggle",
+    "description": "Get system audio status",
+    "license": "Apache",
+    "platforms": [
+        "ios",
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ]
+}
