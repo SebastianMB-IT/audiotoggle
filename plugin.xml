@@ -9,7 +9,7 @@
     <license>Apache</license>
 
     <engines>
-        <engine name="cordova" version=">=3.6.0" />
+        <engine name="cordova" version=">=3.0.0" />
     </engines>    
 
     <js-module src="www/audiotoggle.js" name="AudioToggle">
@@ -44,3 +44,4 @@
         </config-file>
     </platform>
 </plugin>
+
