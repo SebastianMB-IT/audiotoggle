@@ -2,7 +2,7 @@
     "version": "1.0.0",
     "name": "com.dooble.audiotoggle",
     "cordova_name": "AudioToggle",
-    "description": "Get system audio status",
+    "description": "Set system audio status",
     "license": "Apache",
     "platforms": [
         "ios",
