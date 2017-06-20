@@ -48,6 +48,10 @@ public class AudioTogglePlugin extends CordovaPlugin {
 	    	audioManager.setMode(AudioManager.MODE_NORMAL);
 	    	audioManager.setSpeakerphoneOn(false);
 	        return true;
+	    } else if (mode.equals("speaker_call")) {        
+	    	audioManager.setMode(AudioManager.MODE_IN_CALL);
+	    	audioManager.setSpeakerphoneOn(true);
+	        return true;
 	    }
 	    
 	    return false;
