@@ -22,3 +22,5 @@ Android has the following additional options:
     AudioToggle.setAudioMode(AudioToggle.NORMAL);
     // and
     AudioToggle.setAudioMode(AudioToggle.RINGTONE);
+    // and
+    AudioToggle.setAudioMode(AudioToggle.SPEAKER_CALL);
