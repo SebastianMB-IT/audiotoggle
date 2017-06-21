@@ -6,6 +6,6 @@ exports.NORMAL = 'normal';
 exports.RINGTONE = 'ringtone';
 exports.SPEAKER_CALL = 'speaker_call';
 
-exports.setAudioMode = function (mode) {
-	cordova.exec(null, null, 'AudioTogglePlugin', 'setAudioMode', [mode]);
+exports.setAudioMode = function (mode, muteRing) {
+	exec(null, null, 'AudioTogglePlugin', 'setAudioMode', [mode, muteRing]);
 };
