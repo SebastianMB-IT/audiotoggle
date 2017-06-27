@@ -3,7 +3,7 @@
 Cordova plugin for switching between speaker and earpiece when playing audio.
 
     cordova plugin add https://github.com/SebastianMB-IT/audiotoggle.git
-    
+
 ### Supported Platforms
 
 - Android
@@ -22,3 +22,5 @@ Android has the following additional options:
     AudioToggle.setAudioMode(AudioToggle.NORMAL);
     // and
     AudioToggle.setAudioMode(AudioToggle.RINGTONE);
+    // and
+    AudioToggle.setAudioMode(AudioToggle.SPEAKER_CALL, false /* if true, ring sound is muted */);
